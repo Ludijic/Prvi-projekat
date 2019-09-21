@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Adresar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Osoba">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ime" type="xs:string" />
+              <xs:element name="prezime" type="xs:string" />
+              <xs:element name="Datumrodjenja">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="dan" type="xs:unsignedByte" />
+                    <xs:element name="mesec" type="xs:unsignedByte" />
+                    <xs:element name="godina" type="xs:unsignedShort" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Adresa">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ulica" type="xs:string" />
+                    <xs:element name="broj" type="xs:unsignedShort" />
+                    <xs:element name="grad" type="xs:string" />
+                    <xs:element name="drzava" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="tip" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Telefon">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:unsignedInt">
+                      <xs:attribute name="tip" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Email">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="tip" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Kompanija">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="naziv" type="xs:string" />
+              <xs:element name="Adresa">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ulica" type="xs:string" />
+                    <xs:element name="broj" type="xs:unsignedByte" />
+                    <xs:element name="grad" type="xs:string" />
+                    <xs:element name="drzava" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Telefon">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="tip" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Email">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="tip" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
