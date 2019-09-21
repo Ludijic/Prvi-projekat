@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Adresar>
+  <Osoba>
+    <ime>
+      Nikola
+    </ime>
+    <prezime>
+      Drobnjak
+    </prezime>
+    <Datumodjenja>
+      <dan>
+        10
+      </dan>
+      <mesec>
+        6
+      </mesec>
+      <godina>
+        1996
+      </godina>
+   </Datumrodjenja>
+   <Adresa tip='privremena'>
+      <ulica>
+          Godominska
+      </ulica>
+      <broj>
+          54
+      </broj>
+      <grad>
+          Beograd
+      </grad>
+      <drzava>
+          Srbija
+      </drzava>      
+   </Adresa>
+   <Telefon tip='moblini'>
+        555-333
+   </Telefon>
+   <Email tip='sluzbeni'>
+      nikoladrobnjak@gmail.com
+   </Email>   
+  </Osoba>
+
+  <Kompanija>
+    <naziv>
+      Blast
+    </naziv>
+    <adresa>
+     <ulica>
+          Kakanjska
+     </ulica>
+     <broj>
+          13
+     </broj>
+     <grad>
+          Beograd
+     </grad>
+     <drzava>
+          Srbija
+     </drzava>      
+   </adresa>
+   <Telefon tip='fiksni'>
+        555-333
+   </Telefon>
+   <Email tip='sluzbeni'>
+      kompanija@speedy.com
+   </Email>   
+  </Kompanija>
+  
+</Adresar>
