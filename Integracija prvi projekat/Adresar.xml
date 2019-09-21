@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Adresar SYSTEM "Adresar.dtd">
+ <Adresar>
+  <Osoba>
+    <Punoime>
+      <ime>Marko</ime>
+      <srednjeime>Zoran</srednjeime>
+      <prezime>Markovic</prezime>
+    </Punoime>
+    <Datumrodjenja>
+      <dan>15</dan>
+      <mesec>6</mesec>
+      <godina>1991</godina>
+    </Datumrodjenja>
+    <Adresa tipAdrese="stalna">
+      <ulica>Vodice</ulica>
+      <broj>34</broj>
+      <grad>Beograd</grad>
+      <drzava>Srbija</drzava>
+    </Adresa>
+    <Telefon tipTelefona="fiksni">555-333</Telefon>
+    <Email tipEmail="privatni">markom@gmail.com</Email>
+    <Email tipEmail="sluzbeni">mmarkovic@gmail.com</Email>
+    <Email tipEmail="privatni">markomarkovic@gmail.com</Email>
+  </Osoba>
+  <Osoba>
+    <Punoime>
+      <ime>Nikola</ime>
+      <srednjeime>Petar</srednjeime>
+      <prezime>Nikolic</prezime>
+    </Punoime>
+    <Datumrodjenja>
+      <dan>27</dan>
+      <mesec>1</mesec>
+      <godina>1986</godina>
+    </Datumrodjenja>
+    <Adresa tipAdrese="privremena">
+      <ulica>Sokolska</ulica>
+      <broj>24</broj>
+      <grad>Nis</grad>
+      <drzava>Srbija</drzava>
+    </Adresa>
+    <Telefon tipTelefona="mobilni">065-444-333</Telefon>
+    <Email tipEmail="privatni">nikolan@gmail.com</Email>
+    <Email tipEmail="sluzbeni">nnikola@gmail.com</Email>
+    <Email tipEmail="privatni">nikolica@gmail.com</Email>
+  </Osoba>
+  <Osoba>
+    <Punoime>
+      <ime>Nemanja</ime>
+      <srednjeime>Predrag</srednjeime>
+      <prezime>Nemanjic</prezime>
+    </Punoime>
+    <Datumrodjenja>
+      <dan>10</dan>
+      <mesec>6</mesec>
+      <godina>2006</godina>
+    </Datumrodjenja>
+    <Adresa tipAdrese="privremena">
+      <ulica>Moravska</ulica>
+      <broj>43</broj>
+      <grad>Kragujevac</grad>
+      <drzava>Srbija</drzava>
+    </Adresa>
+    <Telefon tipTelefona="fiksni">345-222</Telefon>
+    <Email tipEmail="sluzbeni">nemanjan@gmail.com</Email>
+  </Osoba>
+  <Kompanija>
+    <Naziv>Dreamedia</Naziv>
+    <Adresa tipAdrese="privremena">
+      <ulica>Kasseler</ulica>
+      <broj>2</broj>
+      <grad>Bremen</grad>
+      <drzava>Nemacka</drzava>
+    </Adresa>
+    <Telefon tipTelefona="fiksni">432-214</Telefon>
+    <Email tipEmail="sluzbeni">dreamedia@gmail.com</Email>
+  </Kompanija>
+  <Kompanija>
+    <Naziv>Alpire</Naziv>
+    <Adresa tipAdrese="stalna">
+      <ulica>Wollzeile</ulica>
+      <broj>40</broj>
+      <grad>Bec</grad>
+      <drzava>Austrija</drzava>
+    </Adresa>
+    <Telefon tipTelefona="fiksni">721-541</Telefon>
+    <Email tipEmail="privatni">alpire@gmail.com</Email>
+    <Email tipEmail="sluzbeni">alpiresluzbeni@gmail.com</Email>
+    <Email tipEmail="sluzbeni">alpiressluzbeni2@gmail.com</Email>
+  </Kompanija>
+  <Kompanija>
+    <Naziv>Jetscape</Naziv>
+    <Adresa tipAdrese="stalna">
+      <ulica>Rodopi</ulica>
+      <broj>12</broj>
+      <grad>Sofija</grad>
+      <drzava>Bugarska</drzava>
+    </Adresa>
+    <Telefon tipTelefona="mobilni">064-221-432</Telefon>
+    <Email tipEmail="sluzbeni">jetscape@gmail.com</Email>
+  </Kompanija>
+</Adresar>
